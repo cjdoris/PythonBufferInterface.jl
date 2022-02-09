@@ -1,0 +1,7 @@
+name = "PythonBufferInterface"
+uuid = "7d5d8d1d-1db0-469c-a5af-3557ce9f2103"
+authors = ["Christopher Doris <github.com/cjdoris>"]
+version = "0.1.0"
+
+[deps]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
