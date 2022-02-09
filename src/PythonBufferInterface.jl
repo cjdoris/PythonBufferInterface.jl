@@ -2,6 +2,8 @@ module PythonBufferInterface
 
 import ArrayInterface
 
+export pybuf_info, pybuf_buffer, pybuf_ptr, pybuf_readonly, pybuf_itemsize, pybuf_format, pybuf_ndim, pybuf_shape, pybuf_stride, pybuf_strides, pybuf_suboffset, pybuf_suboffsets, pybuf_len
+
 const TYPE_TO_TYPESTR = Dict(
     Cchar => "b",
     Cuchar => "B",
